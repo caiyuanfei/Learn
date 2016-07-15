@@ -1,0 +1,15 @@
+learn git
+ 
+1.clone
+git clone https://github.com/username/reponame.git
+
+2¡¢
+cd  :for dir match
+pwd :present dir
+
+3¡¢ÔÝ´æ
+git status
+git add newfile
+
+4 delete
+git rm README.md
