@@ -16,3 +16,8 @@ git rm README.md
 
 5、提交到本地仓库
 git commit -m "some comments you want"
+
+6、push
+从远程仓库直接clone的，所以直接这样子
+git remote
+git push
