@@ -13,3 +13,6 @@ git add newfile
 
 4 delete
 git rm README.md
+
+5、提交到本地仓库
+git commit -m "some comments you want"
