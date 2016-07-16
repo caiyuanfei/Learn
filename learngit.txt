@@ -1,6 +1,6 @@
 learn git
  
-REFFER£ºhttp://blog.jobbole.com/78960/
+Refer£ºhttp://blog.jobbole.com/78960/
 
 
 git add/rm file
