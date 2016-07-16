@@ -41,6 +41,22 @@ mkdir dirname
 cd dirname
 pwd
 
+   删除文件用 git rm
+   改文件名用 git mv
+操作文件夹
+   本地文件夹上传远程（空文件夹不能上传，因为是干净的，里面要有东西，文件才能上传）
+touch _posts/README.md    在_posts文件夹下创建一个文件，然后touch
+git add _posts
+（可合并为git add _posts/readme.md)
+git commit -m '创建_posts/README.md文件
+
+删除文件夹
+git rm -rf dir
+git commit -m 'remove dir'
+git push origin master
+
+
+
 2、catch and initial
 git init
 
