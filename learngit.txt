@@ -21,3 +21,55 @@ git commit -m "some comments you want"
 从远程仓库直接clone的，所以直接这样子
 git remote
 git push
+
+
+
+========another way=======
+1、make dir direct
+
+cd your path
+mkdir dirname
+cd dirname
+pwd
+
+2、catch and initial
+git init
+
+自建的文件夹，不是从clone的
+touch README.md  
+git init  
+git add README.md  
+git commit -m "first commit"  
+git remote add origin git@github.com:han1202012/TabHost_Test.git  
+git push -u origin master
+
+
+3/ see the difference that have changed
+
+git diff file.txt
+
+
+4/版本回退
+git log 查看历史记录 or  git log --pretty=oneline
+
+版本回退操作可以使用如下2种命令，第一种是：git reset  –hard HEAD^ ,回退到上上个版本只需把HEAD^ 改成 HEAD^^ 以此类推。
+回退到前100个版本可以使用下面的简便命令操作：git reset  –hard HEAD~100 
+
+再来查看下 readme.txt内容如下：通过命令cat readme.txt查看
+
+5/恢复回退 撤销修改
+git reset --hard 版本号
+git reflog 查看版本号
+则使用git reset --hard 版本号可恢复
+
+Git撤销修改和删除文件操作
+在修改未add到暂存区  或  已存到暂存区又修改则回退到上个版本的暂存区：git checkout -- file（其实是恢复命令）
+
+6、删除文件
+
+
+
+
+
+
+
